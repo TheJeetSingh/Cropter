@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.vite/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads and outputs
+uploads/
+outputs/
+temp_plant_crops/
+*.mp4
+*.avi
+*.mov
+
+# Models (large files)
+*.pt
+*.h5
+*.onnx
+agricultural_detection_system/runs/
+
+# Temporary files
+temp_*.jpg
+temp_*.png
+temp_detection.jpg
+
